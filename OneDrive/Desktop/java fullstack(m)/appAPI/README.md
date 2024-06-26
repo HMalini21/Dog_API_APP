@@ -11,4 +11,6 @@ INTRO TO THIS PROJECT
 ## Creating HTML and CSS
 
 1. starting off with a div that contains few tags for this project,
-   such as: h1, label, select, option tags button tag then the first div is over
+   such as: h1, label, select, option tags button.
+
+2. second div for loading and thrid div for showing the fetch image of the dog

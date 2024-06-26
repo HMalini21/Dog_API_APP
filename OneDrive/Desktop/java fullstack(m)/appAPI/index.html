@@ -5,20 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>API-APP</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="selection-div">
       <h1>DOG API</h1>
-      <label for="dogBreed">Choose DogBreed</label>
+      <label for="dogBreed">Choose DogBreed:</label>
       <select name="selectDogBreed" id="selectDogBreed">
         <option select disabled>Types of Dogbreeds</option>
       </select>
       <button id="img_Btn">Fetch Image</button>
-
-      <div id="loading-indicator"></div>
-      <div id=" img-div">
-        <img />
-      </div>
     </div>
+    <div id="loading-indicator"></div>
+    <div id=" img-div"><img /></div>
   </body>
 </html>
